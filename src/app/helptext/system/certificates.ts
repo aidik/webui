@@ -129,6 +129,12 @@ export const helptext_system_certificates = {
       )
     },
 
+    csr_import: {
+      placeholder: T("Signing Request"),
+      tooltip: T("Cut and paste the contents of your certificate signing request."),
+      validation: [Validators.required]
+    },
+
     certificate: {
       placeholder: T("Certificate"),
       tooltip: T("Paste the certificate for the CA."),
